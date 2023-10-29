@@ -28,17 +28,15 @@ Alexanderは朝起きることを支援するアプリです。アラーム機�
 
 ## 開発技術
 ・Swift
+
 ### 活用した技術
 #### API・データ
-* 
-* 
+* OpenAI API Embeddings
 
 #### フレームワーク・ライブラリ・モジュール
 * iOS EventKit
 * iOS AVFoundation
 * iOS accelerate
-* OpenAI API Embeddings
-* 
 
 #### デバイス
 * iphone
