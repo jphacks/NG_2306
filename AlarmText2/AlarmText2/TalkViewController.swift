@@ -19,7 +19,7 @@ class TalkViewController: UIViewController, SFSpeechRecognizerDelegate {
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "ja-JP"))!
     
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
-    private let openAI = OpenAI(apiToken: "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")
+    private let openAI = OpenAI(apiToken: "APIkey")
         private func getEmbeddings(for text: String) async -> [Double] {
             let embeddingsQuery = EmbeddingsQuery(model: .textEmbeddingAda, input: text)
             let result = try! await openAI.embeddings(query: embeddingsQuery)
